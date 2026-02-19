@@ -170,6 +170,7 @@ export default function RegisterPage() {
               onClick={handleGoogle}
               className="flex items-center justify-center gap-2 bg-white/5 border border-purple-500/20 hover:border-purple-500/40 py-2 rounded-lg transition"
             >
+              <img src="/googlelogo.png" className="w-5 h-5" />
               <span className="text-sm text-white">Google</span>
             </button>
 
@@ -177,6 +178,7 @@ export default function RegisterPage() {
               onClick={handleFacebook}
               className="flex items-center justify-center gap-2 bg-white/5 border border-purple-500/20 hover:border-purple-500/40 py-2 rounded-lg transition"
             >
+              <img src="/facebooklogo.png" className="w-8 h-8" />
               <span className="text-sm text-white">Facebook</span>
             </button>
           </div>
